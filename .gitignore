@@ -1,0 +1,46 @@
+# Dart and Flutter generated files
+.dart_tool/
+.packages
+.pub/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+pubspec.lock
+
+# Android and Gradle local files
+.gradle/
+.kotlin/
+local.properties
+android/.gradle/
+android/local.properties
+android/**/build/
+
+# Editors
+.idea/
+.vscode/
+*.iml
+
+# Build artifacts and logs
+*.apk
+*.aab
+*.aar
+*.class
+*.log
+
+# Signing material and secrets
+*.keystore
+*.jks
+*.p12
+*.pfx
+*.pem
+*.key
+*.cer
+*.crt
+*.mobileprovision
+key.properties
+.env
+.env.*
+credentials*
+secrets*
+google-services.json
+GoogleService-Info.plist
