@@ -1,0 +1,19 @@
+name: pa_device_ai
+description: Private Android adapter for on-device ML Kit Prompt through AICore.
+version: 0.1.0
+publish_to: none
+environment:
+  sdk: '>=3.8.0 <4.0.0'
+  flutter: '>=3.32.0'
+dependencies:
+  flutter:
+    sdk: flutter
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+flutter:
+  plugin:
+    platforms:
+      android:
+        package: ai.pa.device
+        pluginClass: PaDeviceAiPlugin

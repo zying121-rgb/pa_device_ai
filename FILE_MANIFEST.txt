@@ -1,0 +1,10 @@
+.gitignore
+CHANGELOG.md
+FILE_MANIFEST.txt
+README.md
+android/build.gradle
+android/src/main/AndroidManifest.xml
+android/src/main/kotlin/ai/pa/device/PaDeviceAiPlugin.kt
+lib/pa_device_ai.dart
+pubspec.yaml
+test/pa_device_ai_test.dart
