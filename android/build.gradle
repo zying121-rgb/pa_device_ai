@@ -36,7 +36,5 @@ repositories {
 
 dependencies {
     implementation 'com.google.mlkit:genai-prompt:1.0.0-beta4'
-
-    // Google documents a beta3/beta4 download issue with coroutines <= 1.10.x.
     implementation 'org.jetbrains.kotlinx:kotlinx-coroutines-android:1.11.0'
 }
